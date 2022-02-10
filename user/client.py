@@ -52,9 +52,3 @@ class User:
             return df1
         else:
             return sortingInfo.infoSearch.getAllArtists()
-
-
-def addNewUser(user):
-    file = open("users.txt", "w")
-    file.write(user.__str__())
-    file.close()
